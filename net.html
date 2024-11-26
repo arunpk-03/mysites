@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>netflix</title>
+    <style>
+        body{
+            margin: 0px;
+        }
+        .main1{
+            width:100vw;
+            height: 100vh;
+            position: relative;
+        }
+        .main11 img{
+            
+            width: 100%;
+            height: 100%;
+        }
+        
+        
+        .main12{
+        
+            position:absolute;
+            top: 10px;
+            left: 20px;
+            
+        }
+        .main12 h1{
+            color: red;
+            font-size: xxx-large;
+            z-index: 1;
+        }
+        .main13{
+            position: absolute;
+            top: 110px;
+            left: 5%;
+            border: 2px solid white;
+            border-radius: 10px;
+        
+        }
+        
+        .main13 img{
+            width: 1200px;
+            height: 400px;
+            filter: brightness(40%);
+            z-index: 3;
+            border-radius: 10px;
+          
+        }
+
+       .main14{
+        position: absolute;
+        top: 100px;
+        left: 25%;
+        text-align: center;
+        font-size: x-large;
+       }
+       .main14 h1,p{
+        color: beige;
+       }
+
+       .sub51 img{
+        width: 150px;
+        height: 200px;
+       }
+
+       .main15{
+        position: absolute;
+        top: 370px;
+        left: 130px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+       }
+
+        td{
+        padding: 50px;
+    
+       }
+
+       .main15 img{
+        border: 1px solid white;
+        border-radius: 5px;
+        transition: ease(transform)0.2s;
+       }
+
+
+       .main15 img:hover{
+        transform: scale(1.1);
+    
+       }
+
+       .main2{
+        position: absolute;
+        top: 360px;
+
+       }
+
+       input{
+        width: 300px;
+        height: 30px;
+        background-color: rgba(17, 17, 17, 0.2);
+        border: white solid 2px;
+        border-radius: 20px;
+        color: aliceblue;
+       }
+       input::placeholder{
+        color: white;
+        font-size: larger;
+        border-left: 3px;
+        
+       }
+       input:hover{
+        border: red solid 3px;
+       }
+       button:hover{
+        border: 3px solid red;
+       }
+
+
+    button{
+        width: 100px;
+        height:30px;
+        background-color: red;
+        color:white;
+        font-size: larger;
+        border: white solid 1px;
+        border-radius: 20px;
+        margin-left: 20px;
+    }
+
+    .main21{
+        position: absolute;
+        top: 60px;
+        right: 50px;
+    }
+
+    .main21 select{
+        width: 100px;
+        height: 30px;
+        
+        background-color: rgb(8, 8, 8);
+        color: white;
+        border: 2px solid white;
+        border-radius: 10px;
+    }
+
+
+    .main21 button{
+        background-color: red;
+        color: white;
+        margin-right: 30px;
+        border: 1px solid white;
+        border-radius: 10px;
+        
+    }  
+    </style>
+</head>
+<body>
+    <div class="main1">
+        <div class="main11">
+            <img src="bg 1.jpg">
+        </div>
+       <div class="main12">
+           <h1>NETFLIX</h1>
+         </div>
+
+         <div class="main13">
+            <img src="movies2.jpg">
+         </div>
+
+         <div class="main14">
+            <h1>Endless entertainment starts here.</h1>
+
+            <h1>Plans from Just 149</h1>
+
+            <p>cancel or switch plans at anttime</p>
+
+         </div>
+         <div class="main15">
+          <table>
+            <tr>
+                <td>
+                    <div class="sub51">
+                        <img src="m1.jpg">
+                    </div>
+                </td>
+                <td>
+                    <div class="sub51">
+                        <img src="m2.jpg">
+                    </div>
+                </td>
+                <td>
+                    <div class="sub51">
+                        <img src="m3.jpg">
+                    </div>
+                </td>
+                <td>
+                    <div class="sub51">
+                        <img src="m1.jpg">
+                    </div>
+                </td>
+            </tr>
+          </table>
+
+          <div class="main2">
+            <div class="sub21">
+                <input type="email" placeholder="enter Email">
+                <button type="submit">submit</button>
+            </div>
+          </div>
+
+         </div>
+
+         <div class="main21">
+            <select>
+                <option>தமிழ்</option>
+                <option>english</option>
+                <option>hindi</option>
+                </select>
+
+                <button>signup</button>
+         </div>
+       
+
+
+
+         
+    </div>
+</body>
+</html>
